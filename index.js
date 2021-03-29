@@ -240,13 +240,13 @@ Using the annoyingSong function below do the following:
       "{number} bottles of soda on the wall, {number} bottles of soda, take one down pass it around {number left over} bottles of soda on the wall"
 */
 
-function annoyingSong(i){
-
-  //let i = 10;
-  //let newI = i--;
-  //  console.log(`${i} bottles of soda on the wall, ${i} bottles of soda, take one down pass it around ${newI} bottles of soda on the wall`)
+function annoyingSong(numBottles){
+  for ( let x = numBottles; x > 0; x--){
+    //return ( x + ' bottles of soda on the wall, ' + x + ' bottles of soda, take one down pass it around ' + (x - 1) + ' bottles of soda on the wall');
+    return (`${x} bottles of soda on the wall, ${x} bottles of soda, take one down pass it around ${x - 1} bottles of soda on the wall`);
   }
-
+}
+console.log(annoyingSong);
 
 /*🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 7 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀*/
 
